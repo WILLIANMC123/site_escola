@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centraliza os links */
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para as imagens */
+.img-container {
+    text-align: center; /* Centraliza as imagens */
+    margin-bottom: 20px; /* Adiciona espaço abaixo das imagens */
+}
+
+.img-container img {
+    max-width: 40%; /* Largura máxima da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    border-radius: 50px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Corrigi a sombra para ficar mais suave (de 10 para 0.1) */
+}
